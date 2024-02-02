@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'serif', Cambria, Cochin, Georgia, Times, 'Times New Roman';
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb
+}
+
+html, body, #root {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.app-region {
+  -webkit-app-region: drag;
+}
+.reset-app-region {
+  -webkit-app-region: no-drag;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 1px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: oklch(var(--p, var(--b2)) / var(--tw-bg-opacity));
+}
+
+.custom-scrollbar > div, .custom-scrollbar > table {
+  padding-right: 12px;
+}
+
