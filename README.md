@@ -3,7 +3,7 @@
 
 ## 依赖
  - [electron-vite-react](https://github.com/electron-vite/electron-vite-react) 框架
- - [tailwindcss](https://tailwindcss.com/) css原子化框架注意，您还有没有合法的Git
+ - [tailwindcss](https://tailwindcss.com/) css原子化框架
  - [daisyui](https://github.com/daisyui) ui组件，基于tailwindcss
  - [react-redux](https://react-redux.js.org/) 状态管理
  - [react-dnd](https://github.com/react-dnd/react-dnd) 拖拽上传
